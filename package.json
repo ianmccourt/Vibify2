@@ -1,0 +1,38 @@
+{
+  "name": "vibify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "next-auth": "^4.24.11",
+    "spotify-web-api-node": "^5.0.2",
+    "framer-motion": "^12.4.7",
+    "react-icons": "^5.5.0",
+    "recharts": "^2.15.1",
+    "@types/spotify-web-api-node": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  },
+  "description": "Vibify is a web application that analyzes your Spotify listening habits, provides insights about your music taste, and recommends new music based on your preferences and desired level of music obscurity.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
